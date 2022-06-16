@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap');
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.text-sm {
+    font-size: 12px;
+}
+.price {
+    font-size: 16px;
+}
+
+h3 {font-family: 'Fira Sans', sans-serif; color:#ff6900;}
+
+/* Icon set - http://ionicons.com/ */
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1193 {
+  font-family: 'Fira Sans', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 1px 10px 20px 2px;
+  min-width: 220px;
+  max-width: 410px;
+  max-height: 120px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  border-radius: 0px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1193 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+figure.snip1193 img {
+  opacity: .2;
+  width: 100%;
+  display: block;
+}
+figure.snip1193 figcaption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px 12px 5px;
+  position: absolute;
+}
+figure.snip1193 h4,
+figure.snip1193 i {
+  color: #ffffff;
+}
+figure.snip1193 h4 {
+  font-weight: 400;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+figure.snip1193 i {
+  font-size: 22px;
+}
+figure.snip1193 a {
+  text-decoration: none;
+}
+figure.snip1193 .bottom-left,
+figure.snip1193 .bottom-right {
+  position: absolute;
+  bottom: 5px;
+  opacity: 0;
+}
+figure.snip1193 .bottom-left {
+  left: 5px;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+figure.snip1193 .bottom-right {
+  right: 5px;
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+figure.snip1193:hover img,
+figure.snip1193.hover img {
+  opacity: 0.6;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.snip1193:hover figcaption .bottom-left,
+figure.snip1193.hover figcaption .bottom-left,
+figure.snip1193:hover figcaption .bottom-right,
+figure.snip1193.hover figcaption .bottom-right {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+}
+hr.colorrule {border: 3px solid #008675;}
+
+
+body {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	
+	--img-url: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces);
+}
+
+.product {
+	flex-shrink: 0;
+  max-height:90px;
+  max-width:90px;
+	margin:   0px;
+	height: calc(150px + 6vw);
+	width: calc(150px + 6vw);
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.product-1 {
+	border-radius: 30%;
+	background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+}
+
+.product-2 {
+	border-radius: 50%;
+	background-image: none, linear-gradient(to bottom right, #990000, #562b7c, #008675);
+}
+
+.product-3 {
+	border-radius: 30% 10%;
+	background-image: none, linear-gradient(to bottom left, #f83600, #f9d423);
+}
+
+
+.button-5 { align-items: center; background-clip: padding-box; background-color: #fa6400; border: 1px solid transparent; border-radius: .25rem; box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0; box-sizing: border-box; color: #fff; cursor: pointer; display: inline-flex; font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 600; justify-content: center; line-height: 1.25; margin: 0; min-height: 3rem; padding: calc(.875rem - 1px) calc(1.5rem - 1px); position: relative; text-decoration: none; transition: all 250ms; user-select: none; -webkit-user-select: none; touch-action: manipulation; vertical-align: baseline; width: auto; } .button-5:hover, .button-5:focus { background-color: #fb8332; box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px; } .button-5:hover { transform: translateY(-1px); } .button-5:active { background-color: #c85000; box-shadow: rgba(0, 0, 0, .06) 0 2px 4px; transform: translateY(0); }
